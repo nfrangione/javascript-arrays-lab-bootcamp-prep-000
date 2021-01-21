@@ -1,5 +1,7 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
-var addFirs = newArray();
+var addFirst = newArray();
+var addLast = newArray();
+
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
   kittens.push(name);
@@ -28,7 +30,7 @@ function appendKittenName(name) {
 }
 
 function prependKittenName(name){
-  var addFirst = [name, ...kittens];
+  addFirst = [name, ...kittens];
   return addFirst;
 }
 
