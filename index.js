@@ -23,12 +23,12 @@ function destructivelyRemoveFirsiKitten() {
 
 function appendKittenName(name) {
   var addLast = [...kittens, name];
-  return addFirst;
+  return addLast;
 }
 
 function prependKittenName(name){
   var addFirst = [name, ...kittens];
-  return addedKittenFirst;
+  return addFirst;
 }
 
 function removalLastKitten() {
