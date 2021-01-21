@@ -22,7 +22,7 @@ function destructivelyRemoveFirsiKitten() {
 }
 
 function appendKittenName(name) {
-  var addFirst = [...kittens, name];
+  var addLast = [...kittens, name];
   return addFirst;
 }
 
