@@ -33,13 +33,13 @@ function prependKitten(name){
   //return addFirst;
 }
 
-function removalLastKitten() {
+function removeLastKitten() {
   return kittens.slice(0, array.length-1);
   //var lastRemoved = kittens.slice(0, array.length-1);
   //return lastRemoved;
 }
 
-function removalFirstKitten() {
+function removeFirstKitten() {
   return kittens.slice(1);
   //var firstRemoved = kittens.slice(1);
   //return firstRemoved;
