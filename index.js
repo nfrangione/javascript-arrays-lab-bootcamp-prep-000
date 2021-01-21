@@ -1,5 +1,4 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
-var addFirst = newArray();
 
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
@@ -23,13 +22,15 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKittenName(name) {
-  var addLast = kittens.concat(name);
-  return addLast;
+  return [...kittens, name];
+  //var addLast = kittens.concat(name);
+  //return addLast;
 }
 
 function prependKittenName(name){
-  var addFirst = [name, ...kittens];
-  return addFirst;
+  return [name, ...kittens];
+  //var addFirst = [name, ...kittens];
+  //return addFirst;
 }
 
 function removalLastKitten() {
