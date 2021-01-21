@@ -30,7 +30,7 @@ function appendKittenName(name) {
 }
 
 function prependKittenName(name){
-  addFirst = [name, ...kittens];
+  var addFirst = [name, ...kittens];
   return addFirst;
 }
 
